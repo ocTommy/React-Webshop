@@ -16,7 +16,6 @@
 
 .productsList {
   width: 100%;
-  max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
@@ -27,7 +26,7 @@
 /* PRODUCT ITEM STYLING */
 
 .productItem {
-  border-radius: 15px;
+  border-radius: 5px;
   width: 100%;
   max-width: 300px;
   margin: 20px;
@@ -43,16 +42,16 @@
 }
 
 .productItem div {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   width: 100%;
   padding-top: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
-.productItem h1,
+.productItem h3,
 .productItem p {
   text-align: center;
   margin: 10px 20px;
